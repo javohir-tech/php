@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-function addNumbers(int $a, int $b):int {
-    return $a + $b;
+function addNumbers(float $a, float $b):int {
+    return (int)($a + $b);
 }
 
-echo addNumbers(5, 5);
+echo addNumbers(1.1, 2.3);
 
 ?>
