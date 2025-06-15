@@ -1,11 +1,15 @@
 <?php
-function add_five(&$value)
+function sumMyNumbers(...$x)
 {
- $value += 5;
+    $n = 0;
+    $len = count($x);
+    for ($i = 0; $i < $len; $i++) {
+        $n += $x[$i];
+    }
+    return $n;
 }
 
-$num = 2;
-add_five($num);
-echo $num
+$a = sumMyNumbers(1, 2, 3, 4, 5, 6);
+echo $a
 
-?>
+    ?>
