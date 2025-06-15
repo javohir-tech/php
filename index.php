@@ -1,6 +1,6 @@
 <?php
-$ism = 12;
-$natija = $ism ?? "default";
-echo $natija
-// echo $y;
+$colors = array("red", "green", "blue", "yellow");
+foreach($colors as $rang){
+    echo "<br>".$rang."<br>";
+}
 ?>
