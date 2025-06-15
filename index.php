@@ -1,15 +1,8 @@
-<?php
-function myFamily($name, ...$firstName)
-{
-    $txt = "";
-    $len = count($firstName);
-    for ($i = 0; $i < $len; $i++) {
-        $txt .= $firstName[$i] . " $name " ."Hi <br>";
-    }
-    return $txt;
+<?php declare(strict_types=1);
+function addNumbers(int $a, int $b):int {
+    return $a + $b;
 }
 
-$a = myFamily("Doe", "Jane", "John", "Joey");
-echo $a ."";
+echo addNumbers(5, 5);
 
 ?>
