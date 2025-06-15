@@ -1,15 +1,15 @@
 <?php
-function sumMyNumbers(...$x)
+function myFamily($name, ...$firstName)
 {
-    $n = 0;
-    $len = count($x);
+    $txt = "";
+    $len = count($firstName);
     for ($i = 0; $i < $len; $i++) {
-        $n += $x[$i];
+        $txt .= $firstName[$i] . " $name " ."Hi <br>";
     }
-    return $n;
+    return $txt;
 }
 
-$a = sumMyNumbers(1, 2, 3, 4, 5, 6);
-echo $a
+$a = myFamily("Doe", "Jane", "John", "Joey");
+echo $a ."";
 
-    ?>
+?>
