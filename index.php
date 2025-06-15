@@ -1,17 +1,9 @@
 <?php
-class Car
-{
-    public $car;
-    public $model;
-    public function __construct($car, $model)
-    {
-        $this->car = $car;
-        $this->model = $model;
-    }
-}
+$sonlar = [1, 2, 3];
 
-$myCar = new Car("oq", "malibu");
-foreach ($myCar as $x => $y) {
-    echo "$x : $y <br>";
+foreach ($sonlar as &$son) {
+    $son = $son * 2;
 }
+;
+print_r($sonlar);
 ?>
