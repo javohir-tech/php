@@ -1,6 +1,17 @@
 <?php
-$members = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-foreach ($members as $key => $value) {
-    echo "<br>" . $key .":".$value . "<br>";
+class Car
+{
+    public $car;
+    public $model;
+    public function __construct($car, $model)
+    {
+        $this->car = $car;
+        $this->model = $model;
+    }
+}
+
+$myCar = new Car("oq", "malibu");
+foreach ($myCar as $x => $y) {
+    echo "$x : $y <br>";
 }
 ?>
