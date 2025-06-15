@@ -1,9 +1,11 @@
 <?php
-$sonlar = [1, 2, 3];
-
-foreach ($sonlar as &$son) {
-    $son = $son * 2;
+function add_five(&$value)
+{
+ $value += 5;
 }
-;
-print_r($sonlar);
+
+$num = 2;
+add_five($num);
+echo $num
+
 ?>
