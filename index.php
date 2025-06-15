@@ -1,6 +1,6 @@
 <?php
-$x=5;
-$y= $x++;
-echo $y;
+$ism = 12;
+$natija = $ism ?? "default";
+echo $natija
 // echo $y;
 ?>
