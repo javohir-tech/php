@@ -1,8 +1,7 @@
 <?php declare(strict_types=1);
-function addNumbers(float $a, float $b):int {
-    return (int)($a + $b);
-}
+$raqam = 10;
 
-echo addNumbers(1.1, 2.3);
+$multiply = fn($x) => $x * $raqam;
 
+echo $multiply(8);
 ?>
