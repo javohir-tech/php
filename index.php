@@ -24,10 +24,26 @@
 // $myCar["brand"] = "Chevrolet";
 // var_dump($myCar);
 
-$myArr = [];
-$myArr[0] = "apples";
-$myArr[1] = "bananas";
-$myArr["fruit"] = "cherries";
-var_dump($myArr)
+// $myArr = [];
+// $myArr[0] = "apples";
+// $myArr[1] = "bananas";
+// $myArr["fruit"] = "cherries";
+// var_dump($myArr)
+
+// $cars = array("brand" => "Ford", "model" => "Mustang", "year" => 1964);
+// echo $cars['model'];
+// echo $cars['model'];
+// echo $cars['model'];
+
+function myFunction(){
+    echo "Salom Dunyo";
+}
+
+// $myArr = ["volvo" , 15 , myFunction()];
+// $myArr  = array("volvo" , 15 , "myFunction");
+$myArr = array('car' => 'volvo' , 'age'=>15 , 'message' =>myFunction());
+
+$myArr['message']
+
 
 ?>
