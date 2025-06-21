@@ -9,11 +9,25 @@
 //     echo $x . '<br>';
 // }
 
-$person = array("name" => "Javohir", "age" => 21, "adress" => "Toshkent");
-// var_dump($person)
-// echo $person['name']
-foreach ($person as $key => $value) {
-    echo $key. " : " . $value . "<br>";
-}
+// $person = array("name" => "Javohir", "age" => 21, "adress" => "Toshkent");
+// // var_dump($person)
+// // echo $person['name']
+// foreach ($person as $key => $value) {
+//     echo $key. " : " . $value . "<br>";
+// }
+
+// $cars = [];
+// $cars[0] = "volvo";
+// var_dump($cars);
+
+// $myCar = [];
+// $myCar["brand"] = "Chevrolet";
+// var_dump($myCar);
+
+$myArr = [];
+$myArr[0] = "apples";
+$myArr[1] = "bananas";
+$myArr["fruit"] = "cherries";
+var_dump($myArr)
 
 ?>
