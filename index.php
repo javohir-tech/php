@@ -35,15 +35,21 @@
 // echo $cars['model'];
 // echo $cars['model'];
 
-function myFunction(){
-    echo "Salom Dunyo";
+// function myFunction(){
+//     echo "Salom Dunyo";
+// }
+
+// // $myArr = ["volvo" , 15 , myFunction()];
+// // $myArr  = array("volvo" , 15 , "myFunction");
+// $myArr = array('car' => 'volvo' , 'age'=>15 , 'message' =>myFunction());
+
+// $myArr['message']
+
+$car = array("brand" => "Ford", "model" => "Mustang", "year" => 1964);
+
+foreach ($car as $x => $y) {
+    echo "$x :  $y <br>";
 }
-
-// $myArr = ["volvo" , 15 , myFunction()];
-// $myArr  = array("volvo" , 15 , "myFunction");
-$myArr = array('car' => 'volvo' , 'age'=>15 , 'message' =>myFunction());
-
-$myArr['message']
 
 
 ?>
