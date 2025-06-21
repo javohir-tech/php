@@ -1,7 +1,19 @@
-<?php declare(strict_types=1);
-$raqam = 10;
+<?php
 
-$multiply = fn($x) => $x * $raqam;
+// $cars = array("volvo", "ferrari", "chevrolet");
 
-echo $multiply(8);
+// var_dump($cars);
+// echo($cars[0])
+// array_push($cars,"bmw");
+// foreach ($cars as $x) {
+//     echo $x . '<br>';
+// }
+
+$person = array("name" => "Javohir", "age" => 21, "adress" => "Toshkent");
+// var_dump($person)
+// echo $person['name']
+foreach ($person as $key => $value) {
+    echo $key. " : " . $value . "<br>";
+}
+
 ?>
