@@ -3,18 +3,7 @@
 $ism = "javohir";
 $age = 21;
 
-// echo $ism . " " . $age;
-function myFunction(){
-    $a  = "salom";
-    return function() use ($a){
-        return $a;
-    };
-};
+echo "<h2> " . $ism . " </h2>";
 
-$nestedFunction =  myFunction();
-
-echo $nestedFunction();
-
-// echo  myFunction()
-
-?>
+print false
+    ?>
