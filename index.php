@@ -37,5 +37,4 @@ $gap = "salom mening ismim Javohir";
 // echo  str_word_count($gap)
 
 
-
 ?>
