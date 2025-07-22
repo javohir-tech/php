@@ -28,13 +28,27 @@ string
 // $message =  new MyCar("nexia" ,  "mokri");
 // echo $message->message()
 
+$pi = pi() ;
 
-$gap = "salom mening ismim Javohir";
+// echo $pi;
 
-// echo strlen($gap)
-// echo str_replace("salom" ,  "Assalom Aleykum " , $gap) // matn ichidagi so'zni boshqa so'zga almashtiradi 
-// echo strrev($gap)
-// echo  str_word_count($gap)
+$min = min(1, 2, 3, -2);
 
+// echo $min
 
+$max = max(32 , 43);
+
+// echo $max
+
+$abs =  abs(-2);
+
+// echo $abs
+
+$rand =  rand();
+
+// echo $rand
+
+$round = round(3.6);
+
+// echo $round
 ?>
