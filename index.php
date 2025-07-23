@@ -1,6 +1,8 @@
 <?php
+
+// matemetik operatorlar
+// taqoslash operatorlari 
 $x = 10;
 $y = 9;
-$y=$x;
-echo $y
+echo $x <> $y
 ?>
