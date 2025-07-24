@@ -1,10 +1,9 @@
 <?php
 
-// matemetik operatorlar
-// taqoslash operatorlari 
-$x = 10;
-$y = 9;
-// echo 5 <=> 10;
-// echo 10 <=> 10;
-echo 15 <=> 10;
+// matemetik operatorlar  || arifmetik operators
+// belgilash operatorlar || assigment operators
+// taqoslash operatorlari  || comparison operators 
+// oshirish kamaytrish operatorlari ||  Increment/Decrement operators
+
+
 ?>
