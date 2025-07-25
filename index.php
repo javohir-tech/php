@@ -6,12 +6,19 @@
 // oshirish kamaytrish operatorlari ||  Increment/Decrement operators
 // logika operatorlari || logical operators
 // string operatorlari || string operators
+// massiv operatorlari || array operators
+// + ikkita massivni qo'shadi 
+// == ikkita massivni bir hil kalit-qiymatlari borligini tekshiradi tartip muhim emas 
+// === ikkita masivni kalit-qiymati va data type bir hil bo'lishi kerak , tartip muhim 
 
-$txt1 = "salom" ; 
-$txt2 = " dunyo";
 
-$txt1.= $txt2;
+$x = array( "a" => "21" , "b" => "salom");
+$y = array("a" => 21, "b" => "salom");
+// $y = array("c" => "brown" , "d"=>"yellow");
 
-echo $txt1 
 
-?>
+// print_r($x+$y)
+
+var_dump($x === $y)
+
+    ?>
