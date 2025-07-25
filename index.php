@@ -5,14 +5,13 @@
 // taqoslash operatorlari  || comparison operators 
 // oshirish kamaytrish operatorlari ||  Increment/Decrement operators
 // logika operatorlari || logical operators
+// string operatorlari || string operators
 
-$plastik_tolov =  true;
-$naxt_tolov = false;
+$txt1 = "salom" ; 
+$txt2 = " dunyo";
 
-if($plastik_tolov xor $naxt_tolov){
-    echo "tolov qabul qilindi";
-}else{
-    echo "ikkala yoki hech biri tanlammagan . faqat bittasini tanlaang";
-}
+$txt1.= $txt2;
+
+echo $txt1 
 
 ?>
