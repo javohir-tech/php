@@ -21,18 +21,19 @@
 
 // var_dump($x === $y)
 
-$rang = 'yashil';
+$rang = 'sabzi rang';
 
 switch ($rang) {
     case "yashil":
         echo "rang yashilga teng";
         break;
     case "sariq":
-    case "ssabzi rang":
+    case "sabzi rang":
         echo "rang olov rang";
         break;
-        default : 
+    default:
         echo "bizda bur rang yo'q";
+
 }
 
 ?>
