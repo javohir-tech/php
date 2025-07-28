@@ -21,18 +21,18 @@
 
 // var_dump($x === $y)
 
+$rang = 'yashil';
 
-$x = 10;
-$y = 20;
-
-if ($x === $y) {
-    echo " x teng y ga ";
-} elseif ($x > $y) {
-    echo " x  y dan katta";
-} elseif ($x < $y) {
-    echo " y x dan katta ";
-} else {
-    echo " teng emas ";
+switch ($rang) {
+    case "yashil":
+        echo "rang yashilga teng";
+        break;
+    case "sariq":
+    case "ssabzi rang":
+        echo "rang olov rang";
+        break;
+        default : 
+        echo "bizda bur rang yo'q";
 }
 
 ?>
