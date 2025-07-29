@@ -21,10 +21,23 @@
 
 // var_dump($x === $y)
 
-$arr = array("javoh" => "21", "ulug" => 23, "shaxi" => 15);
+class Car
+{
+    public $color;
+    public $model;
 
-foreach ($arr as $name => $age) {
-    echo $name . ":" . $age . "<br>";
+    public function __construct($color, $model)
+    {
+        $this->color = $color;
+        $this->model = $model;
+    }
 }
+
+$myCar = new Car("qizil", "nexia");
+
+foreach ($myCar as $x => $y) {
+    echo "$x : $y <br>";
+}
+
 
 ?>
