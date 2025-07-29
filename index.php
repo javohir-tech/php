@@ -21,22 +21,30 @@
 
 // var_dump($x === $y)
 
-class Car
-{
-    public $color;
-    public $model;
+// class Car
+// {
+//     public $color;
+//     public $model;
 
-    public function __construct($color, $model)
-    {
-        $this->color = $color;
-        $this->model = $model;
-    }
-}
+//     public function __construct($color, $model)
+//     {
+//         $this->color = $color;
+//         $this->model = $model;
+//     }
+// }
 
-$myCar = new Car("qizil", "nexia");
+// $myCar = new Car("qizil", "nexia");
 
-foreach ($myCar as $x => $y) {
-    echo "$x : $y <br>";
+// foreach ($myCar as $x => $y) {
+//     echo "$x : $y <br>";
+// }
+
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $x) {
+    if ($x === "blue")
+        continue;
+    echo " $x <br>";
 }
 
 
