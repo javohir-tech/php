@@ -23,11 +23,9 @@
 
 $i = 0;
 
-do {
-    $i++;
-    if ($i === 3)
-        continue;
-    echo $i . "<br>";
-} while ($i < 6)
+for ($x = 0; $x <= 10; $x++) {
+    if($x <  3)  continue;    
+    echo $x . "<br>";
+}
 
 ?>
