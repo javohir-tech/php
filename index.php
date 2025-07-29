@@ -21,19 +21,12 @@
 
 // var_dump($x === $y)
 
-$rang = 'sabzi rang';
+$i = 0;
 
-switch ($rang) {
-    case "yashil":
-        echo "rang yashilga teng";
-        break;
-    case "sariq":
-    case "sabzi rang":
-        echo "rang olov rang";
-        break;
-    default:
-        echo "bizda bur rang yo'q";
-
+while ($i < 6) {
+    echo $i . "<br>";
+    if($i== 3) break;
+    $i++;
 }
 
 ?>
