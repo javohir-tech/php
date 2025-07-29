@@ -21,10 +21,10 @@
 
 // var_dump($x === $y)
 
-$arr = array("red", "green", "blue", "yellow");
+$arr = array("javoh" => "21", "ulug" => 23, "shaxi" => 15);
 
-foreach($arr as $color){
-    echo $color  . "<br>";
+foreach ($arr as $name => $age) {
+    echo $name . ":" . $age . "<br>";
 }
 
 ?>
