@@ -41,14 +41,14 @@
 
 $colors = array("red", "green", "blue", "yellow");
 
-foreach ($colors as $x) {
+foreach ($colors as &$x) :
     if ($x === "blue")
         $x = "pink";
 
     echo " $x <br>";
-}
+endforeach;
 
-// print_r($colors)
+print_r($colors)
 
 
 ?>
