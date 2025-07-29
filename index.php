@@ -21,11 +21,10 @@
 
 // var_dump($x === $y)
 
-$i = 0;
+$arr = array("red", "green", "blue", "yellow");
 
-for ($x = 0; $x <= 10; $x+=2) {
-    if($x <  3)  continue;    
-    echo $x . "<br>";
+foreach($arr as $color){
+    echo $color  . "<br>";
 }
 
 ?>
