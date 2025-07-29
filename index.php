@@ -43,9 +43,12 @@ $colors = array("red", "green", "blue", "yellow");
 
 foreach ($colors as $x) {
     if ($x === "blue")
-        continue;
+        $x = "pink";
+
     echo " $x <br>";
 }
+
+// print_r($colors)
 
 
 ?>
