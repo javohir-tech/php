@@ -24,9 +24,9 @@
 $i = 0;
 
 while ($i < 6) {
-    echo $i . "<br>";
-    if($i== 3) break;
     $i++;
+    if($i== 3) continue;
+    echo $i . "<br>";
 }
 
 ?>
