@@ -23,7 +23,7 @@
 
 $i = 0;
 
-for ($x = 0; $x <= 10; $x++) {
+for ($x = 0; $x <= 10; $x+=2) {
     if($x <  3)  continue;    
     echo $x . "<br>";
 }
