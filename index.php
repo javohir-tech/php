@@ -21,11 +21,13 @@
 
 // var_dump($x === $y)
 
-$i = 8;
+$i = 0;
 
 do {
-    echo $i . "<br>";
     $i++;
+    if ($i === 3)
+        continue;
+    echo $i . "<br>";
 } while ($i < 6)
 
 ?>
