@@ -11,13 +11,12 @@
 // == ikkita massivni bir hil kalit-qiymatlari borligini tekshiradi tartip muhim emas 
 // === ikkita masivni kalit-qiymati va data type bir hil bo'lishi kerak , tartip muhim 
 
-function myFunction($name , $year=2000)
+function add_five(&$num)
 {
-    echo "$name Suvonov . $year tug'ulgan <br>";
+    $num += 5;
 }
 
-myFunction("Javohir" , 2004);
-myFunction("Ulug'bek" , )
-
-
+$value = 2 ;
+add_five($value);
+echo $value
 ?>
