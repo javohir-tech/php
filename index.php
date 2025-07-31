@@ -11,19 +11,19 @@
 // == ikkita massivni bir hil kalit-qiymatlari borligini tekshiradi tartip muhim emas 
 // === ikkita masivni kalit-qiymati va data type bir hil bo'lishi kerak , tartip muhim 
 
-function sumMyNumbers(...$x)
+function myFamily($lastName, ...$firstName)
 {
-    $n = 0;
-    $len = count($x);
-
+    $txt = "";
+    $len = count($firstName);
     for ($i = 0; $i < $len; $i++) {
-        $n += $x[$i];
+        $txt = $txt. "Hi , $firstName[$i] $lastName .<br>";
     }
 
-    return $n;
+    return $txt;
 }
 
-$res = sumMyNumbers(5, 2, 6, 2, 7, 7);
+$res =  myFamily("Suvonov" , "Javohir" , "Ulug'bek" , "Zavqiddin" , "Iskandar");
 echo $res
 
-    ?>
+
+?>
