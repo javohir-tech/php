@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 // matemetik operatorlar  || arifmetik operators
 // belgilash operatorlar || assigment operators
@@ -11,19 +11,11 @@
 // == ikkita massivni bir hil kalit-qiymatlari borligini tekshiradi tartip muhim emas 
 // === ikkita masivni kalit-qiymati va data type bir hil bo'lishi kerak , tartip muhim 
 
-function myFamily($lastName, ...$firstName)
+function myFunction(int $a, int $b) : int
 {
-    $txt = "";
-    $len = count($firstName);
-    for ($i = 0; $i < $len; $i++) {
-        $txt = $txt. "Hi , $firstName[$i] $lastName .<br>";
-    }
-
-    return $txt;
+return $a+$b;
 }
 
-$res =  myFamily("Suvonov" , "Javohir" , "Ulug'bek" , "Zavqiddin" , "Iskandar");
-echo $res
-
-
+$res = myFunction(5 ,   10);
+echo $res;
 ?>
