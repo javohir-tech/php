@@ -11,44 +11,13 @@
 // == ikkita massivni bir hil kalit-qiymatlari borligini tekshiradi tartip muhim emas 
 // === ikkita masivni kalit-qiymati va data type bir hil bo'lishi kerak , tartip muhim 
 
+function myFunction($name)
+{
+    echo "$name Suvonov . <br>";
+}
 
-// $x = array( "a" => "21" , "b" => "salom");
-// $y = array("a" => 21, "b" => "salom");
-// // $y = array("c" => "brown" , "d"=>"yellow");
-
-
-// // print_r($x+$y)
-
-// var_dump($x === $y)
-
-// class Car
-// {
-//     public $color;
-//     public $model;
-
-//     public function __construct($color, $model)
-//     {
-//         $this->color = $color;
-//         $this->model = $model;
-//     }
-// }
-
-// $myCar = new Car("qizil", "nexia");
-
-// foreach ($myCar as $x => $y) {
-//     echo "$x : $y <br>";
-// }
-
-$colors = array("red", "green", "blue", "yellow");
-
-foreach ($colors as &$x) :
-    if ($x === "blue")
-        $x = "pink";
-
-    echo " $x <br>";
-endforeach;
-
-print_r($colors)
+myFunction("Javohir");
+myFunction("Ulug'bek")
 
 
 ?>
