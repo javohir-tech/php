@@ -15,11 +15,17 @@ $indexedArr = [12, "salom", true, 1.2];
 
 $AssArr = ["javohir" => 21, "ulug'bek" => 23];
 
-foreach ($AssArr as $key => $value) {
-    echo "$key : $value <br>";
-}
+// foreach ($AssArr as $key => $value) {
+//     echo "$key : $value <br>";
+// }
 
+// Multidimensional Array;
 
+$MultiArr = [
+   "odamlar" => ["javohir" => 21 , "Ulug'bek" => 23],
+   "new" => [13 , "hello" , true , 1.2]
+];
 
+echo $MultiArr["new"][1]
 
 ?>
