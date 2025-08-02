@@ -1,10 +1,17 @@
-<?php declare(strict_types=1);
-$ozgaruvchi = "salom dunyo";
+<?php
 
-echo "oldin" . "<br>";
+//     Indexed arrays - Arrays with a numeric index  || indexlarti raqamlardan iborat array
+// Associative arrays - Arrays with named keys || indexlari kalit so'zlardan iborat array
+// Multidimensional arrays - Arrays containing one or more arrays || array ichida array bolsa
 
-// var_dump($ozgaruvchi);
-die($ozgaruvchi);
+//indexed Arrays
+const indexedArr = [12, "salom" , true , 1.2];
 
-echo " <br> keyin" ;
+foreach(indexedArr as $item){
+    echo $item ."<br>";
+}
+
+
+
+
 ?>
