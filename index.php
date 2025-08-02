@@ -5,10 +5,18 @@
 // Multidimensional arrays - Arrays containing one or more arrays || array ichida array bolsa
 
 //indexed Arrays
-const indexedArr = [12, "salom" , true , 1.2];
+$indexedArr = [12, "salom", true, 1.2];
 
-foreach(indexedArr as $item){
-    echo $item ."<br>";
+// foreach(indexedArr as $item){
+//     echo $item ."<br>";
+// }
+
+//Associative Arrays
+
+$AssArr = ["javohir" => 21, "ulug'bek" => 23];
+
+foreach ($AssArr as $key => $value) {
+    echo "$key : $value <br>";
 }
 
 
