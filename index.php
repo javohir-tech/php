@@ -15,6 +15,6 @@
 // $_COOKIE
 // $_SESSION
 
-var_dump($_SERVER["PHP_SELF"])
+var_dump($_GET["test"])
 
 ?>
