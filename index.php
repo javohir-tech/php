@@ -20,9 +20,9 @@ $foods = ['manti', "xonim", "somsa"]
     <p>mening yoqtirgan moshinam - <?= $car ?></p>
     <h1>toamlar : </h1>
     <ul>
-        <?php foreach($foods as $food): ?>
+        <?php foreach ($foods as $food): ?>
             <li><?= $food ?></li>
-            <?php endforeach?>
+        <?php endforeach ?>
     </ul>
 </body>
 
