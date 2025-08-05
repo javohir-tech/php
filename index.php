@@ -1,20 +1,29 @@
 <?php
 
-//     Indexed arrays - Arrays with a numeric index  || indexlarti raqamlardan iborat array
-// Associative arrays - Arrays with named keys || indexlari kalit so'zlardan iborat array
-// Multidimensional arrays - Arrays containing one or more arrays || array ichida array bolsa
+$car = "Moshina";
 
-//Super globals 
-// $GLOBALS
-// $_SERVER
-// $_REQUEST
-// $_POST
-// $_GET
-// $_FILES
-// $_ENV
-// $_COOKIE
-// $_SESSION
+$foods = ['manti', "xonim", "somsa"]
 
-var_dump($_GET["test"])
+    ?>
 
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php darslar</title>
+</head>
+
+<body>
+    <h1>salom dunyo</h1>
+    <p>mening yoqtirgan moshinam - <?= $car ?></p>
+    <h1>toamlar : </h1>
+    <ul>
+        <?php foreach($foods as $food): ?>
+            <li><?= $food ?></li>
+            <?php endforeach?>
+    </ul>
+</body>
+
+</html>
