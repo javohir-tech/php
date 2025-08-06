@@ -23,7 +23,7 @@
 
 <body>
     <h1 style="text-align : center">Forma</h1>
-    <form action="form.php" method="GET">
+    <form action="form.php" method="POSt">
         <div class="form-box">
             <label for="name">Ismingiz</label>
             <input type="text" id="name" name="name">
